@@ -31,9 +31,11 @@ img {
     border-color: aqua;
     border-style: dotted;
 }
+<style>
 div {
-    background-color: pink;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/267/068/small/CAT_AND_DOG_STICKER.jpg");
 }
+</style>
 #lista-gatos-aman {
     font-size: 15px;
     color: red;
