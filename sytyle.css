@@ -1,0 +1,51 @@
+h2 {
+    color: blue;
+    font-size: 50px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h3 {
+    color: green;
+    font-size: 25px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fasthand', cursive;
+
+ }
+ h4 {
+    color:orangered;
+    font-size: 20px;
+ }
+
+
+p {
+    color: purple;
+    font-size: 15px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Rubik Iso', cursive;
+
+}
+img {
+    width: 200px;
+    border-width: 15px;
+    border-color: aqua;
+    border-style: dotted;
+}
+div {
+    background-color: pink;
+}
+#lista-gatos-aman {
+    font-size: 15px;
+    color: red;
+}
+#lista-gatos-odian {
+    font-size:18px;
+    font-family: Arial, Helvetica;
+    color: red;
+}
+body {
+    background-color: pink;
+}
+a {
+    text-decoration: black wavy underline;
+}

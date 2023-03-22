@@ -5,16 +5,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial">
     <title>AppDeGatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Fasthand&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link href="sytyle.css" rel="stylesheet">
   </head>
   <body>
     <h2>AppDeGatos</h2>
     <h3>Formulario de gatos garrapientos</h3>
-    <label for="gato shuko"><input id="gato shuko" type="checkbox" value="gato shuko" name="personalidad" checked>gato shuko</label>
-    <label for="gato cojo"><input id="gato cojo" type="checkbox" value="gato cojo"name="personalidad">gato cojo</label>
-    <label for="gato volador"><input id="gato volador" type="checkbox" value="gato volador"name="personalidad">gato volador</label>
+    <h4>marca segun tu parecer:</h4>
+    <label for="gato grande"><input id="gato grande" type="checkbox" value="gato grande" name="personalidad" checked>gato grande</label>
+    <label for="gato mediano"><input id="gato mediano" type="checkbox" value="gato mediano"name="personalidad">gato mediano</label>
+    <label for="gato pequeno"><input id="gato pequeno" type="checkbox" value="gato pequeno"name="personalidad">gato pequeno</label>
 
     <br>
-    <hr size="7"color="pink">
+    <hr size="7"color="chocolate">
     <label for="negro"><input id="negro" type="radio" value="negro" name="negro-blanco-canelo" checked>negro</label>
 
     <br>
@@ -27,16 +32,16 @@
 
     <main>
       <h3>imagenes de Gatos:</h3>
-      <p>Haz click aqui para ver mas <a href="#"target="_blank" rel="noopener noreferrer">imagenes de gatos</a></p>
+     <a href="https://pixabay.com/es/images/search/gato/"target="_blank" rel="noopener noreferrer">Haz click aqui para ver mas imagenes de gatos</a></p>
 
       <a href="#"target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="un lindo gato naranja recostado sobre su espalda."></a>
-      <hr>
+      <hr size="7"color="chocolate">
 
       <h3>Listas de Gatos</h3>
 
       <div>
         <p>Cosas que los gatos<em> aman </em>:</p>
-        <ul>
+        <ul id="lista-gatos-aman">
           <li>Menta gatuna</li>
           <li>Apuntadores Laser</li>
           <li><s>Lasana</s></li>
@@ -45,22 +50,22 @@
 
 
         <p>Cosas que los gatos<strong> odian </strong>:</p>
-        <ol>
+        <ol id="lista-gatos-odian">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
+        <img src="imagenes/gatitos.jpg">
       </div>
-      <img src="imagenes/gatitos.jpg">
 
-      <form action="/enviar-respuesta">
+      <form action="https://www.survio.com/survey/d/E8Q5C1N1X1L4A1B5O?preview=1">
 
         <h1>Ingrese nombre</h1>
         <input type="text" placeholder="Ingrese nombre" required>
         <h1>Ingrese apellido</h1>
         <input type="text" placeholder="Ingrese apellido" required>
-        <h1>Ingrese sueldo</h1>
-        <input type="text" placeholder="Ingrese sueldo chato" required>
+        <h1>Ingrese nombre del minino</h1>
+        <input type="text" placeholder="Ingrese nombre del gato" required>
         <button type="submit">Enviar</button>
         <button type="submit">Limpiar</button>
       </form>
